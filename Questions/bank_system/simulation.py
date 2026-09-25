@@ -2,8 +2,8 @@
 All your implementation code for the bank system simulation goes here.
 """
 
-class Simulation:
 
+class Simulation:
     def __init__(self):
         pass
 
@@ -12,7 +12,7 @@ class Simulation:
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
         pass
-
+        
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
         pass
 
